@@ -65,6 +65,14 @@ class _ScreenOneState extends State<ScreenOne> {
           'Photo Gallery',
           style: TextStyle(color: Colors.white),
         ),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.more_vert),
+          ),
+        ],
+        leading:
+            IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back_outlined)),
         backgroundColor: Color.fromARGB(255, 44, 171, 0),
         centerTitle: true,
       ),
